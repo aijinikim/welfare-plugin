@@ -57,6 +57,9 @@ function validate(message) {
   if (typeof message !== 'string' || message.length === 0) {
     deny('message가 비어 있습니다.');
   }
+  // 이 훅은 나챗방으로 가는 모든 전송에 걸린다 — 다른 플러그인(예: airport-plugin)의 메시지까지.
+  // 그래서 이 플러그인 형식(「- 요청 」으로 시작)일 때만 검사하고, 나머지는 그 플러그인의 훅에 맡긴다.
+  if (!message.startsWith('- 요청 ')) return;
 
   if (!FORMAT.test(message)) {
     const problems = [];
