@@ -1,4 +1,4 @@
-# bokji-alert
+# welfare-plugin
 
 조건에 맞는 **대한민국 복지 공고**를 찾아 HTML 리포트로 정리하고, **카카오톡 나챗방**으로 고정 포맷 알림을 보내는 Claude Code 플러그인.
 
@@ -19,8 +19,8 @@
 ## 설치
 
 ```
-/plugin marketplace add murbachovski/bokji-alert
-/plugin install bokji-alert@bokji-alert
+/plugin marketplace add aijinikim/bokji-alert
+/plugin install welfare-plugin@welfare-plugin
 ```
 
 설치 후 `/mcp` → `playmcp` 를 선택해 카카오 계정으로 OAuth 인증한다.

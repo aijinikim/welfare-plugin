@@ -37,8 +37,8 @@ PlayMCP 게이트웨이는 **도구함에 담긴 도구만** 노출한다. 설�
 ```
 PlayMCP 복지니 도구에 연결하지 못했습니다. 아래 순서로 확인하세요.
 
-1. 설치    /plugin marketplace add murbachovski/bokji-alert
-           /plugin install bokji-alert@bokji-alert
+1. 설치    /plugin marketplace add aijinikim/bokji-alert
+           /plugin install welfare-plugin@welfare-plugin
 2. 인증    /mcp → playmcp 선택 → 카카오 계정 OAuth
 3. 도구함  https://playmcp.kakao.com/toolbox 에서
            "복지니" 와 "카카오톡 나챗방" 을 도구함에 담기
