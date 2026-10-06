@@ -19,7 +19,7 @@
 ## 설치
 
 ```
-/plugin marketplace add aijinikim/bokji-alert
+/plugin marketplace add aijinikim/welfare-plugin
 /plugin install welfare-plugin@welfare-plugin
 ```
 
